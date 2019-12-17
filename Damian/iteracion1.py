@@ -5,13 +5,13 @@ texto=str(os.sys.argv[1])
 
 for frase in texto:
 #Si es # muestre auxilio
-    if(frase=="#"):
+    if(texto=="#"):
         print("Auxilio")
 #Si es $ muestre necesito ayuda
-    if(frase=="$"):
+    if(texto=="$"):
         print("Necesito ayuda")
 #Si es O muestre hablame urgente
-    if(frase=="O"):
+    if(texto=="O"):
         print("Hablame urgente")
     #fin_if
 #fin_for

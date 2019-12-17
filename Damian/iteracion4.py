@@ -4,13 +4,13 @@ texto=str(os.sys.argv[1])
 
 for letra in texto:
 #Si es R muestre cliente en riesgo
-    if(letra=="R"):
+    if(texto=="R"):
         print("Cliente en riesgo")
 #Si es B muestre buen cliente
-    if(letra=="B"):
+    if(texto=="B"):
         print("Buen cliente")
 #Si es E muestre excelente cliente
-    if(letra=="E"):
+    if(texto=="E"):
         print("Excelente cliente")
         #fin_if
     #fin_for

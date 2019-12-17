@@ -5,13 +5,13 @@ letra=str(os.sys.argv[1])
 
 for palabra in letra:
 #Si es A muestre aprobado
-    if(palabra=="A"):
+    if(letra=="A"):
         print("Aprobado")
 #Si es B muestre regular
-    if(palabra=="B"):
+    if(letra=="B"):
         print("Regular")
 #Si es C muestre desaprobado
-    if(palabra=="C"):
+    if(letra=="C"):
         print("Desaprobado")
     #fin_if
 #fin_for
